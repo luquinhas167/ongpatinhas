@@ -1,0 +1,11 @@
+
+body { margin:0; font-family:Arial; background:var(--bg); color:var(--text); }
+:root { --bg:#fff; --text:#111; --card:#eee; }
+.dark { --bg:#111; --text:#eee; --card:#333; }
+header { display:flex; justify-content:space-between; padding:20px; background:var(--card); }
+nav a { margin:0 10px; text-decoration:none; color:var(--text); }
+.hero { text-align:center; padding:30px; }
+.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; padding:20px; }
+.cards { display:flex; gap:20px; padding:20px; }
+.card { background:var(--card); padding:10px; border-radius:10px; text-align:center; }
+footer { text-align:center; padding:20px; background:var(--card); margin-top:30px; }
